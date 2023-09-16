@@ -1,44 +1,97 @@
+* {
+    box-sizing: border-box;
+     
+}
 
 h1 {
-
+    font-family: "Alice", serif;
 }
 
 h2 {
-
+    font-family: "Mulish", sans-serif;
 }
 
 h3 {
-
+    color:  rgb(91, 122, 113);
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
 }
 
 p {
+    color:  rgb(91, 122, 113);
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+}
 
+a {
+    color: #b7d9b1;;
+}
+
+a:hover {
+    color: #E2B007;
+}
+
+
+
+header {
+    height: 400px;
+    background-image: url("resources/headerbackground.jpg");
+    background-position: 40% 47%;
+    font-family: "Alice", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+header h1 {
+
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+header h2 {
+    color: rgb(247, 202, 201);
+    font-size:  x-large;
+    font-size: 36px;
+}
+
+header h3 {
+    color: whitesmoke;
+    font-size: large;
+
+    font-size: 24px;
+}
+
+body {
+    margin: 20px;
+}
+
+footer {
+    display: flexbox;
+    border: solid  rgb(226, 176, 7) 1px;
+    width: 80%;
+}
+
+#bannerh1 {
+    color: red;
 }
 
 .photopanel {
 
 }
 
-header {
-    background-image: ;
-}
-
-header h1 {
+#quote {
     text-align: center;
-    text-transform: uppercase;
 }
 
-header h2 {
+#quoteauthor {
     text-align: center;
-    color: pink;
+    font-family: "Muli", sans-serif;       
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
 }
 
-header h3 {
-    text-align: center;
-    color: whitesmoke;
-
-}
-
-#bannerh1 {
-    color: red;
-}
